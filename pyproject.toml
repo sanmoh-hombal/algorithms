@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "algorithms"
+version = "1.0.0"
+description = "Simple Pythonic Implimentation of every major algorithm"
+authors = ["Sanmoh Hombal <sanmoh.hombal@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.20.0"
+black = "^22.6.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"

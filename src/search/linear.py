@@ -3,6 +3,7 @@ from typing import Any, List
 
 def search(input: List[Any], key: Any) -> bool:
     """
+    :Linear Search:
     Search the input list for the key and return True if found, False otherwise.
     
     The function takes two arguments: input and key. The input argument is a list of any type, and the
